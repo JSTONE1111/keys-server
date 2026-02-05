@@ -88,7 +88,7 @@ anyhow = "1"
 validator = { version = "0.16", features = ["derive"] }
 data-encoding = "2.3"
 iri-string = "0.7.0"
-time = "0.3.17"
+time = "0.3.47"
 k256 = "0.12.0"
 sha3 = "0.10.6"
 hex = "0.4.3"
