@@ -21,11 +21,11 @@ relay_rpc = { git = "https://github.com/WalletConnect/WalletConnectRust.git", ta
 blockchain_api = { git = "https://github.com/WalletConnect/WalletConnectRust.git", tag = "v0.30.0" }
 
 aws-config = "1.1.9"
-aws-sdk-s3 = "1.21.0"
+aws-sdk-s3 = "1.22.0"
 
 axum = "0.7.5"
 axum-macros = "0.3.0"
-tokio = { version = "1.0", features = ["full"] }
+tokio = { version = "1.38", features = ["full"] }
 tower = { version = "0.4.13", features = [
     "util",
     "timeout",
@@ -55,7 +55,7 @@ serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 
 # JWT
-jsonwebtoken = "8"
+jsonwebtoken = "9"
 
 # Env Vars
 dotenv = "0.15"
@@ -88,7 +88,7 @@ anyhow = "1"
 validator = { version = "0.16", features = ["derive"] }
 data-encoding = "2.3"
 iri-string = "0.7.0"
-time = "0.3.17"
+time = "0.3.47"
 k256 = "0.12.0"
 sha3 = "0.10.6"
 hex = "0.4.3"
